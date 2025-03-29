@@ -16,6 +16,18 @@
 
 (package! password-store)
 
+(package! magit-todos)
+
+(package! lsp-tailwindcss
+  :recipe (:host github :repo "merrickluo/lsp-tailwindcss" :files ("*.el")))
+
+;; (package! eaf
+;;   :recipe (:host github
+;;            :repo "emacs-eaf/emacs-application-framework"
+;;            :files ("*.el" "*.py" "core" "app" "*.json")
+;;            :includes (eaf-pdf-viewer eaf-browser)
+;;            :pre-build (("python" "install-eaf.py" "-i" "pdf-viewer" "browser" "--ignore-sys-deps"))))
+
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;; (package! some-package)
 
